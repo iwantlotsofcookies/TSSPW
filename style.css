@@ -47,11 +47,13 @@ ul{
   overflow: hidden;
   background-color: black;
 }
-#nav a{
+#nav a:link{
   color: white;
   display: block;
   margin-top: 25px;
-
+}
+#nav a:hover{
+  color: hotpink;
 }
 h1 {
   margin: auto;
