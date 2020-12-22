@@ -2,30 +2,52 @@ body {
   font-family: helvetica;
   background-color:	rgb(10, 28, 88);
 }
-img {
-  margin-top: 0px;
-  width: 52px;
-  height: 52px;
-  background-color: rgb(0,0,0);
-  padding: 15px;
-  clear: right;
+#nav {
+  display: flex;
+}
+img{
+  width: 100px;
+  height: 100px;
+}
+#left{
+color: black;
+font-size: 24px;
+}
+#left li{
+  padding: 10px;
   float: left;
+  display: block;
 }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: rgb(0, 0, 0);
+#left_list{
+  width: 70%;
+  clear: right;
 }
-li {
+#right{
+  color: black;
+  font-size: 24px;
+}
+#right li{
+  padding: 10px;
+  float: right;
+  display: block;
+}
+#right_list{
+  width: 30%;
   float: right;
   clear: left;
+}
+ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: black;
+}
+#nav a{
   color: white;
-  padding: 26px 8px;
-  text-decoration: none;
-  font-size: 20px;
   display: block;
+  margin-top: 25px;
+
 }
 h1 {
   margin: auto;
@@ -42,9 +64,7 @@ h1 {
   text-align: center;
   margin: auto;
   color: white;
-
 }
-
 div.latestep {
   font-size: 30px;
   margin-top: 95px;
