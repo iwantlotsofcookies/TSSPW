@@ -93,8 +93,11 @@ h1 {
 }
 @media screen and (max-width: 950px){
   h1 {
-    margin-top: 40px;
+    margin-top: 0;
     font-size: 10vw;
+    background-color: #407E82;
+    color: white;
+    padding: 20px;
   }
 }
 #about {
@@ -110,6 +113,25 @@ div.latestep {
   text-align: center;
   line-height: 0px;
   color: black;
+}
+@media screen and (max-width: 580px){
+  .latestep {
+    display: none;
+  }
+}
+#mlep {
+  display: none;
+  text-align: center;
+  font-size: 6vw;
+  margin: auto;
+  max-width: 580px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+@media screen and (max-width: 580px){
+  #mlep {
+    display: block;
+  }
 }
 div.orlisten {
   margin-top: 20px;
