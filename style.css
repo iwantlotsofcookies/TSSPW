@@ -96,6 +96,7 @@ h1 {
   text-align: center;
   margin: auto;
   color: black;
+  margin-bottom: 5vw;
 }
 #headerpodcastlinks{
   font-size: 3vw;
@@ -106,6 +107,7 @@ h1 {
 #podcastlinks {
   font-size: 3vw;
   text-align: center;
+  margin-bottom: 4vw;
 }
 div.orlisten {
   margin-top: 20px;
@@ -148,4 +150,76 @@ div.contact {
 div.form{
   text-align: center;
   margin-bottom: 0px;
+}
+.aboutt {
+  background-color:#8FD995;
+  padding: 2vw;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+.aboutt p {
+  max-width: 25vw;
+  margin-left: 24vw;
+  margin-top: 0vw;
+  margin-right: 1vw;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.5vw;
+}
+
+.column img {
+  max-width: 24vw;
+  margin-left: 1vw;
+  margin-top: 0vw;
+  margin-right: 20vw;
+  width: 24vw;
+  height: 24vw;
+
+}
+
+.aboutt h2 {
+  margin-top: 0vw;
+  margin-bottom: 4vw;
+  text-align: center;
+  font-size: 3vw;
+  font-family: 'Raleway', sans-serif;
+}
+.button a:link, .button a:visited{
+  text-decoration: none;
+  background-color: pink;
+  border: none;
+  color: white;
+  padding: 1vw 2.5vw;
+  font-size: 1.75vw;
+  margin-bottom: 5vw;
+  border-radius: 1vw;
+  transition-duration: 0.4s;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  display: inline-block;
+}
+
+.button{
+  text-align: center;
+}
+
+.button a:hover, .button a:active {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  text-decoration: none;
+  background-color: #8FD995;
+  border: none;
+  color: white;
+  padding: 1vw 2.5vw;
+  font-size: 1.75vw;
+  margin-bottom: 5vw;
+  border-radius: 1vw;
+  transition-duration: 0.4s;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;  
 }
