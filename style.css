@@ -167,16 +167,16 @@ div.form{
 .aboutt p {
   max-width: 25vw;
   margin-left: 24vw;
-  margin-top: 0vw;
+  margin-top: 4vw;
   margin-right: 1vw;
   font-family: 'Noto Sans', sans-serif;
-  font-size: 1.5vw;
+  font-size: 1.35vw;
 }
 
 .column img {
   max-width: 24vw;
   margin-left: 1vw;
-  margin-top: 0vw;
+  margin-top: 3vw;
   margin-right: 20vw;
   width: 24vw;
   height: 24vw;
@@ -185,7 +185,7 @@ div.form{
 
 .aboutt h2 {
   margin-top: 0vw;
-  margin-bottom: 4vw;
+  margin-bottom: 0vw;
   text-align: center;
   font-size: 3vw;
   font-family: 'Raleway', sans-serif;
