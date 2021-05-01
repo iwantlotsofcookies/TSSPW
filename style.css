@@ -179,7 +179,7 @@ div.form{
   margin-top: 3vw;
   margin-right: 20vw;
   width: 24vw;
-  height: 24vw;
+  height: 29vw;
 
 }
 
@@ -223,3 +223,41 @@ div.form{
   font-family: 'Raleway', sans-serif;
   text-align: center;  
 }
+
+#intro {
+
+
+    height: 100%;
+
+
+}
+
+
+ 
+
+
+#intro {
+
+
+    background: url("andy-holmes-rCbdp8VCYhQ-unsplash.jpg")no-repeat center center fixed;
+
+
+    -webkit-background-size: cover;
+
+
+    -moz-background-size: cover;
+
+
+    -o-background-size: cover;
+
+
+    background-size: cover;
+
+
+}
+
+
+ 
+
+
+ 
